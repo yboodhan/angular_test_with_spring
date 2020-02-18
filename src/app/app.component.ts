@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'angular-app-test';
+  title: string;
+ 
+  constructor() {
+    this.title = 'Spring Boot - Angular Application';
+  }
 }
